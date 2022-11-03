@@ -8,12 +8,6 @@
     <packaging>pom</packaging>
     <name>JRedLib</name>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-    </properties>
-
     <modules>
         <module>modules/container</module>
         <module>modules/functional</module>
