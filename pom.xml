@@ -11,6 +11,7 @@
     <modules>
         <module>modules/container</module>
         <module>modules/functional</module>
+        <module>modules/internal</module>
         <module>modules/memory</module>
         <module>modules/utility</module>
     </modules>

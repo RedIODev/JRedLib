@@ -8,27 +8,14 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>dev.redio.container</groupId>
-    <artifactId>container</artifactId>
+    <groupId>dev.redio.internal</groupId>
+    <artifactId>internal</artifactId>
     <version>1.0</version>
-    <name>Container</name>
+    <name>Internal</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>dev.redio.internal</groupId>
-            <artifactId>internal</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>dev.redio.memory</groupId>
-            <artifactId>memory</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
 </project>
